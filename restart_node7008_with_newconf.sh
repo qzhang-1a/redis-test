@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # shutdown node 7008
 kill `ps ux | grep redis-server | grep 7008 | awk '{print $2}'`

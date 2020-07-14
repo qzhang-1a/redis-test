@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ./create_conf.sh
 ./run_servers.sh

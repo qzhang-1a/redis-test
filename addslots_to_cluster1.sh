@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 slots=($(seq 0 1 5460))
 slotsstring=$( IFS=$' '; echo "${slots[*]}" )
 ./redis-cli -p 7000 cluster addslots $slotsstring

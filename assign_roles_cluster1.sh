@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 masterPorts=(7000 7003 7006)
 for masterPorts in "${masterPorts[@]}"
 do

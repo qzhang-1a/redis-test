@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 portrange=($(seq 7010 1 7016))
 for portrange in "${portrange[@]}"
